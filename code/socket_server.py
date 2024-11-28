@@ -4,7 +4,7 @@ import time
 
 def start_server():
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server_socket.bind(('localhost', 5000))
+    server_socket.bind(('localhost', 4000))
     server_socket.listen(1)
     print("Server listening on port 5000...")
 
